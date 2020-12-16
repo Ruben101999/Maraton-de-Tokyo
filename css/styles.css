@@ -129,6 +129,11 @@ h1 {
 
 /*body*/
 
+h5 {
+    padding-top: 5%;
+    font-size: 30px;
+}
+
 #customers {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
@@ -250,6 +255,10 @@ h1 {
     background-color: grey;
 }
 
+.two-column h1 {
+    text-align: center;
+}
+
 
 /*Responsive layout - makes the three columns stack on top of watch*/
 
@@ -267,6 +276,6 @@ h1 {
         width: 100%;
     }
     .four-column {
-        width: 50%;
+        width: 100%;
     }
 }
