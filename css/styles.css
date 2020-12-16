@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Averta CY', sans-serif;
+}
+
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(79, 167, 159);
+}
+
+img {
+    display: block;
+}
+
+
+/*clear floats after the columns*/
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*head*/
+
+#section-1 {
+    background-image: url("../img/Imagen-1.jpg");
+}
+
+#section-2 {
+    padding: 5px;
+}
+
+#section-5 {
+    padding: 5px;
+}
+
+#section-6 {
+    background-color: rgb(250, 250, 250);
+    border: 0;
+}
+
+#footer {
+    background-color: grey;
+}
+
+h1 {
+    color: rgb(153, 82, 82);
+    text-align: center;
+}
+
+.one-column {
+    padding: 200px 10%;
+    width: 100%;
+    float: left;
+}
+
+.one-column-video {
+    text-align: center;
+    color: rgb(153, 82, 82);
+    padding-bottom: 15px;
+}
+
+.background {
+    height: 100%;
+    background-image: url("../img/Imagen-1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20% 8%;
+    text-align: center;
+}
+
+.background h2 {
+    font-size: 80px;
+    font-family: fink Heavy;
+    color: rgb(231, 23, 23);
+}
+
+.one-column-head h2 {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 500%;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.iframe {
+    align-box: center;
+}
+
+.one-column h3 {
+    font-size: 27px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.one-column h2 {
+    font-size: 75px;
+    text-align: center;
+    color: rgb(71, 104, 105);
+    width: 100%;
+    padding-top: 200px;
+}
+
+.padding-top {
+    padding: 5% 0 0;
+}
+
+.padding-bottom {
+    padding: 0 0 5%;
+}
+
+.one-column-head h5 {
+    padding: 10px;
+}
+
+.two-column-body h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-right: 5%;
+}
+
+
+/*body*/
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: rgb(40, 76, 233);
+}
+
+#customers th {
+    padding-top: 18px;
+    padding-bottom: 14px;
+    text-align: left;
+    background-color: blue;
+    color: rgb(108, 108, 187);
+}
+
+#section-2 {
+    background-color: rgb(166, 224, 195);
+}
+
+.two-column {
+    padding: 10px 10%;
+    float: left;
+    width: 50%;
+    box-align: center;
+}
+
+.padding-mapa {
+    padding-top: 6%;
+}
+
+.two-column img {
+    height: 400px;
+    width: 450px;
+    padding-bottom: 20%;
+}
+
+.one-column p {
+    text-align: left;
+    font-size: century;
+    padding-bottom: 16px;
+}
+
+.two-column-formulario {
+    padding: 10px 5%;
+    float: left;
+    width: 50%;
+    box-align: left;
+}
+
+.one-column h2 {
+    padding: 5px;
+}
+
+
+/*footer*/
+
+#etiqueta {
+    text-align: left;
+    position: justify;
+    float: bottom;
+    top: 50%;
+    left: 50%;
+}
+
+#mapa {
+    max-width: 100%;
+    height: auto;
+    padding: 0% 20% 10%;
+}
+
+#mapa img {
+    width: 500% 20px;
+    float: left;
+}
+
+.footer {
+    padding: 1.4% 3% 2%;
+    float: left;
+    width: 60%;
+}
+
+.footer-titulo {
+    width: 40%;
+    float: left;
+    padding-left: 20%;
+    padding-bottom: 2%;
+    padding: 5px;
+    background-color: grey;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.padding-elementos {
+    padding: 0% 5%;
+    float: left;
+}
+
+#contacto {
+    padding: 10%;
+}
+
+#color-footer {
+    background-color: grey;
+}
+
+
+/*Responsive layout - makes the three columns stack on top of watch*/
+
+@media screen and (max-width:700px) {
+    .header {
+        font-size: 300%;
+    }
+    .one-column h1 {
+        font-size: 6.5vw;
+    }
+    .two-column p {
+        font-size: 4.2vw;
+    }
+    .two-column {
+        width: 100%;
+    }
+    .four-column {
+        width: 50%;
+    }
+}
